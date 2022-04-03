@@ -9,6 +9,6 @@ public class Main {
         int percent = (deposit > 1000) ? 1 : 0;
         int bonus = deposit / 100 * percent;
         int balance = account + deposit + bonus;
-        System.out.println("Ваш баланс равен:" +  balance + "Ваш бонус равен:" +  bonus);
+        System.out.println("Ваш баланс равен: " + balance + " Ваш бонус равен: " + bonus);
     }
 }
